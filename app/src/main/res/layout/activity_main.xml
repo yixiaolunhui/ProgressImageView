@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.dalong.progressimageview.MainActivity">
+
+    <com.dalong.imageview.ProgressImageView
+        android:id="@+id/image"
+        android:layout_centerInParent = "true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:progressTextColor="#ffffff"
+        app:progressTextSize="25sp"
+        app:progressStartColor="#80000000"
+        app:progressEndColor="#00000000"
+        app:progressType="bottom"
+        android:src="@mipmap/dalong" />
+
+    <RadioGroup
+        android:id="@+id/id_group"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/id_left"
+            android:text="left"
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/textsize"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/id_top"
+            android:text="top"
+            android:textSize="@dimen/textsize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/id_right"
+            android:text="right"
+            android:textSize="@dimen/textsize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/id_bottom"
+            android:text="bottom"
+            android:textSize="@dimen/textsize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressImageView">
+        <attr name="progressTextColor" format="color"/>
+        <attr name="progressTextSize" format="dimension"/>
+        <attr name="progressStartColor" format="color"/>
+        <attr name="progressEndColor" format="color"/>
+        <attr name="progressType" format="integer">
+            <enum name="left" value="0"/>
+            <enum name="top" value="1"/>
+            <enum name="right" value="2"/>
+            <enum name="bottom" value="3"/>
+        </attr>
+    </declare-styleable>
+</resources>
