@@ -3,4 +3,4 @@
 
 
 # 效果图
-![image](https://github.com/dalong982242260/FlowLayout/blob/master/gif/flowlayout.gif?raw=true)
+![image](https://github.com/dalong982242260/ProgressImageView/blob/master/gif/progressImageview.gif?raw=true)
